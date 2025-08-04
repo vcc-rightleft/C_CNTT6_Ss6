@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
-for (int score=1; score<101; score++) {
+for (int score=100; score>0; score--) {
     printf("%d \n", score);
 }
 }
+
 
